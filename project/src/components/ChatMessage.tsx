@@ -1,4 +1,5 @@
 //import React from 'react';
+import ReactMarkdown from "react-markdown";
 import { Bot, User } from 'lucide-react';
 
 interface ChatMessageProps {
@@ -19,7 +20,8 @@ export function ChatMessage({ message, isBot, timestamp }: ChatMessageProps) {
         <div className={`rounded-2xl px-4 py-2 ${
           isBot ? 'message-gradient-bot text-gray-800' : 'message-gradient-user text-white'
         } shadow-sm`}>
-          <p className="text-sm">{message}</p>
+          {/* Use ReactMarkdown to render the message */}
+          <ReactMarkdown>{message}</ReactMarkdown>
         </div>
         <span className="text-xs text-gray-400 mt-1">{timestamp}</span>
       </div>
