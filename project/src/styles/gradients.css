@@ -1,0 +1,12 @@
+/* Gradient utilities */
+.bg-gradient {
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+}
+
+.message-gradient-bot {
+  background: linear-gradient(135deg, #e0e7ff 0%, #ddd6fe 100%);
+}
+
+.message-gradient-user {
+  background: linear-gradient(135deg, #818cf8 0%, #8b5cf6 100%);
+}
