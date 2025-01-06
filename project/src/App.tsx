@@ -43,7 +43,7 @@ function App() {
       setLoading(true);
 
       // Make a POST request to your Flask server
-      const response = await fetch('http://0.0.0.0:10000/chat', {
+      const response = await fetch('https://crustdata-m5ak.onrender.com/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
