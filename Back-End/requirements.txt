@@ -7,6 +7,4 @@ pandas
 numpy
 scikit-learn
 huggingface_hub
-json
-os
 gunicorn
