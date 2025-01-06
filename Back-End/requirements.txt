@@ -64,7 +64,7 @@ PySocks==1.7.1
 python-dateutil==2.9.0.post0
 pytweening==1.2.0
 pytz==2024.2
-pywin32==306
+#pywin32==306
 PyYAML==6.0.2
 pyzmq==26.2.0
 regex==2024.9.11
